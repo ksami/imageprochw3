@@ -17,4 +17,4 @@ end
 dispM = inds - 1;
 
 %//debug
-%figure;imagesc(inds);colormap(gray);axis image;
+%figure; imagesc(dispM); colormap(gray); axis image;
