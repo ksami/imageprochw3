@@ -3,15 +3,15 @@ clear all ;
 % --------------------  parameters
 
 % For office dataset
-fIL = '../data/office/img_00000_c0_1301078321108104us.pgm' ;
-fIR = '../data/office/img_00000_c1_1301078321108123us.pgm' ;
-fParam = '../data/camera_office.mat' ;
-fgt = '../data/gt_office.mat' ;
-fRectP = '../result/rect_office.mat' ;
-fRectIm = '../result/rect_0_office.png' ;
+% fIL = '../data/office/img_00000_c0_1301078321108104us.pgm' ;
+% fIR = '../data/office/img_00000_c1_1301078321108123us.pgm' ;
+% fParam = '../data/camera_office.mat' ;
+% fgt = '../data/gt_office.mat' ;
+% fRectP = '../result/rect_office.mat' ;
+% fRectIm = '../result/rect_0_office.png' ;
 %}
 
-%{
+
 % For street dataset
 fIL = '../data/street/img_00000_c0_1317746099983263us.pgm' ;
 fIR = '../data/street/img_00000_c1_1317746099983254us.pgm' ;
@@ -19,7 +19,7 @@ fParam = '../data/camera_street.mat' ;
 fgt = '../data/gt_street.mat' ;
 fRectP = '../result/rect_street.mat' ;
 fRectIm = '../result/rect_0_street.png' ;
-%}
+
 
 % --------------------  load two images
 IL = imread(fIL) ;
